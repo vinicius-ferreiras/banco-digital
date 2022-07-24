@@ -1,5 +1,15 @@
+import java.util.List;
+
 public class Banco {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
+    private String nome;
+    private List<Cliente> clientes;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public List<Cliente> getClientes() {
+        return clientes;
     }
 }
